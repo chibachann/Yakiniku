@@ -1,0 +1,13 @@
+/* Base.module.css */
+.section {
+    height: 40vh;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 20px;
+  }

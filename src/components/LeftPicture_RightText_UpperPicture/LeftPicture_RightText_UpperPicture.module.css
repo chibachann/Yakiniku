@@ -1,0 +1,77 @@
+/* LeftPicture_RightText_UpperPicture.module.css */
+.section {
+    height: 70vh;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 1rem auto;
+    
+  }
+  
+
+  .leftContent {
+    width: 50%;
+    height: 70vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    z-index: 1;
+    
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .rightContent {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 80px;
+    width: 50%;
+    height: 60vh;
+    
+  }
+  
+  .Container {
+    text-align: left;
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  .title {
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  
+  .titleImage {
+    width: 60%;
+  }
+  
+  .box {
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Zen Old Mincho", sans-serif;
+  }
+  
+  .description {
+    font-size: 1rem;
+    font-family: "Zen Old Mincho", sans-serif;
+    font-weight: 400;
+  }

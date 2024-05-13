@@ -1,0 +1,83 @@
+/* LeftPicture_RightText.module.css */
+.section {
+  height: 60vh;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 1rem auto;
+}
+
+.rightContent {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: self-start;
+  padding-left: 20px;
+  margin-right: 50px;
+  width: 50%;
+  height: 50vh;
+}
+
+.leftContent {
+  width: 50%;
+  height: 50vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+.textContainer {
+  
+  text-align: left;
+  max-width: 90%;
+  margin-left: 10%;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: -2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.titleText {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: "Zen Old Mincho", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.box {
+  width: 100%;
+
+  font-size: 1rem;
+  font-family: "Zen Old Mincho", sans-serif;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-family: "Zen Old Mincho", sans-serif;
+  font-weight: 400;
+}

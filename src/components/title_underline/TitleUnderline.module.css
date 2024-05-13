@@ -1,0 +1,17 @@
+/* TitleUnderline.module.css */
+.title {
+  font-family: "Zen Old Mincho", serif;
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.title h2 {
+  font-weight: 500;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+}

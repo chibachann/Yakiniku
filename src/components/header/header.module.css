@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.logoContainer {
+  flex: 0 0 auto;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+
+.logo:hover {
+  opacity:0.5;
+	transition:0.3s;
+}
+
+.nav {
+  flex: 1 1 auto;
+  text-align: right;
+}
+
+.navList {
+  list-style: none;
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navList li {
+  display: inline-block;
+  margin-left: 1rem;
+  
+}
+
+.navList li img {
+  height: 20px;
+  width: auto;
+}
+
+.navList li img:hover {
+  opacity:0.5;
+	transition:0.3s;
+}
+
+.navList li button {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-family: "Dancing Script", cursive;
+}
+
+.navList li button:hover {
+  color: #888;
+}
+
+.activeButton {
+  font-weight: bold;
+}
+
+@media (max-width: 1279px) {
+  .header {
+    justify-content: flex-end;
+    padding: 0.5rem;
+  }
+
+  .logoText {
+    font-size: 1.3rem;
+  }
+
+  .navList li {
+    display: inline-block;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    display: none;
+  }
+}

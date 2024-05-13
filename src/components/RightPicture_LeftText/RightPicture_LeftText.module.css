@@ -1,0 +1,75 @@
+/* RightPicture_LeftText.module.css */
+.section {
+  height: 60vh;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 1rem auto;
+}
+
+.leftContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-left: 50px;
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.rightContent {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  margin-right: 50px;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  max-height: 50vh;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.textContainer {
+  text-align: left;
+  max-width: 80%;
+  margin-right: 10%;
+  padding: 20px;
+}
+
+.title {
+  font-family: var(--font-family-primary);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -1rem;
+}
+
+.number {
+  font-size: 2rem;
+  color: var(--color-secondary);
+  margin-right: 1rem;
+}
+
+.titleText {
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+.subtitle {
+  font-family: var(--font-family-secondary);
+  font-size: 1rem;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+

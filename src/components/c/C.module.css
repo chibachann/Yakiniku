@@ -1,0 +1,27 @@
+/* C.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+.section {
+    background-image: url("/images/picture/ami.png");
+    position: relative;
+    width: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: 80vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .content {
+    position: relative;
+    text-align: center;
+  }
+
+  .text {
+    margin-top: 20vh;
+    font-family: "Zen Old Mincho", sans-serif;
+    color: #fff;
+    font-size: 1.3rem;
+  }
