@@ -91,7 +91,12 @@
 }
 
 @media (max-width: 480px) {
-  .header {
-    display: none;
+  .logo{
+    height: 50px;
   }
+
+  .navList li img {
+    height: 15px;
+  }
+
 }

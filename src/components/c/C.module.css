@@ -25,3 +25,36 @@
     color: #fff;
     font-size: 1.3rem;
   }
+
+  @media (max-width: 1200px) {
+
+    .section {
+      height: 50vh;
+      padding-top: 5vh;
+    }
+
+    .text {
+      margin-top: 10vh;
+      font-size: 1rem;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section {
+      height: 70vh;
+      padding-top: 0;
+    }
+
+    .content {
+      text-align: left;
+      padding: 1rem;
+    }
+
+    .text {
+      margin-top: 10vh;
+      font-size: 0.9rem;
+      line-height: 2;
+    }
+    
+  }

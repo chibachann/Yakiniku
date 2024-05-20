@@ -1,6 +1,6 @@
 /* RightPicture_LeftText_UpperTitle.module.css */
 .section {
-  height: 70vh;
+  height: 80vh;
   max-width: 1280px;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
   text-align: left;
   max-width: 100%;
   align-items: center;
-  
+  justify-content: center;
 }
 
 .title {
@@ -38,9 +38,8 @@
 }
 
 .box {
+
   width: 100%;
-  font-size: 1rem;
-  font-family: "Zen Old Mincho", sans-serif;
 }
 
 .description {
@@ -61,15 +60,76 @@
   flex-direction: column;
   z-index: 1;
 }
-
 .image {
   width: 100%;
-  height: auto;
-  max-height: 70vh;
+  height: 100%;
   object-fit: cover;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  transform: none;
   z-index: 2;
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding: 1rem;
+  } 
+
+  .rightContent{
+    height: 80%;
+  }
+
+
+  .Container {
+    max-width: 100%;
+    margin-left: 0%;
+    padding: 10px;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .titleImage {
+    width: 50%;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  
+  .rightContent {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .image {
+    position: static;
+    height: 100%;
+  }
+
+  .title {
+    padding-right: 0px;
+  }
+
+  .titleImage {
+    width: 70%;
+  }
+
+  .leftContent{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    padding-right: 0px;
+  }
 }

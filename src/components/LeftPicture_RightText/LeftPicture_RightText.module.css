@@ -81,3 +81,47 @@
   font-family: "Zen Old Mincho", sans-serif;
   font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+  .section {
+    height: 50vh;
+    padding: 1rem;
+  }
+
+  .textContainer {
+    max-width: 100%;
+    margin-left: 0%;
+    padding: 10px;
+  }
+
+  .titleText {
+    font-size: 0.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .section {
+    flex-direction: column;
+    height: 90vh;
+  }
+  
+  .leftContent {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .rightContent {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+    margin-top: 10px;
+  }
+}

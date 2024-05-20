@@ -48,3 +48,8 @@
     animation: fadeInUp 2s ease-out;
   }
   
+  @media (max-width: 1279px) {
+    .kuroge {
+      height: 80px;
+    }
+  }

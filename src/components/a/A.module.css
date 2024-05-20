@@ -14,7 +14,18 @@
   background-position: bottom;
 }
 
-.text {
-  font-family: "Zen Old Mincho", sans-serif;
-  color: #fff;
+
+@media (max-width: 1200px) {
+  .section {
+    height: 80vh;
+    padding-top: 5vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    height: 110vh;
+    
+  }
+  
 }

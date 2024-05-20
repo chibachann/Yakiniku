@@ -1,12 +1,11 @@
 /* LeftPicture_RightText_UpperPicture.module.css */
 .section {
-    height: 70vh;
+    height: 80vh;
     max-width: 1280px;
     display: flex;
     align-items: center;
     position: relative;
     margin: 1rem auto;
-    
   }
   
 
@@ -21,18 +20,16 @@
     position: relative;
     flex-direction: column;
     z-index: 1;
-    
   }
   
   .image {
     width: 100%;
-    height: auto;
-    max-height: 70vh;
+    height: 100%;
     object-fit: cover;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    transform: none;
     z-index: 2;
   }
 
@@ -66,8 +63,6 @@
   
   .box {
     width: 100%;
-    font-size: 1rem;
-    font-family: "Zen Old Mincho", sans-serif;
   }
   
   .description {
@@ -75,3 +70,68 @@
     font-family: "Zen Old Mincho", sans-serif;
     font-weight: 400;
   }
+
+  @media (max-width: 1200px) {
+    .section {
+      padding: 1rem;
+    } 
+
+    .leftContent{
+      height: 80%;
+    }
+
+    .Container {
+      max-width: 100%;
+      margin-left: 0%;
+      padding: 10px;
+      
+    }
+
+    .title {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      
+    }
+  
+    .titleImage {
+      width: 50%;
+      margin-left: -50px;
+      
+    }
+    
+    .description {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .section {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .leftContent {
+      width: 100%;
+      height: 50vh;
+      margin-left: 0;
+    }
+
+    .image {
+      position: static;
+      height: 100%;
+    }
+
+    .titleImage {
+      width: 70%;
+    }
+  
+    .rightContent {
+      width: 100%;
+      margin-right: 0;
+      height: auto;
+      margin-top: 2rem;
+      padding-left: 0px;
+    }
+  }
+  

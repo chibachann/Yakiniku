@@ -9,10 +9,19 @@ import C from '../components/c/C'
 const IndexPage = () => {
   return (
     <Layout>
+      <div id="top">
       <Top />
-      <A />
-      <B />
-      <C />
+      </div>
+      
+      <div id="point">
+        <A/>
+      </div>
+      <div id="menu">
+        <B/>
+      </div>
+      <div id="access">
+        <C/>
+      </div>
     </Layout>
   )
 }
