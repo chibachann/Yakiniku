@@ -10,7 +10,7 @@ const A = () => {
       <div className={styles.content}>
         <TitleUnderline title="はじめに" color="#333" underlineColor="#707070"/>
         <LeftPicture_RightText
-          image='images/picture/horumon.jpeg' 
+          image='images/picture/horumon.jpg' 
           alt='pc' 
           title='MESSAGE' 
           subtitle={'慶助が{"\n"}大切にしていること'}

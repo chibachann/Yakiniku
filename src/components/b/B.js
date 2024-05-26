@@ -11,7 +11,7 @@ const B = () => {
       <div className={styles.content}>
         <TitleUnderline title="こだわりの品々" color="#fff"  underlineColor="#fff"/>
         <LeftPicture_RightText_UpperPicture
-          image='images/picture/loin.jpeg' 
+          image='images/picture/loin.jpg' 
           alt='loin' 
           title_image='images/text/kuroge.png'
           alt_title='kuroge'
@@ -19,7 +19,7 @@ const B = () => {
           description={'最高ランクであるA5ランクの国産黒毛和牛のみを{"\n"}買い付けています。{"\n"}国内の原産地にこだわることなく、厳密な品質基準を満たす{"\n"}最高の個体を選定して仕入れを行っております。{"\n"}{"\n"}また、一頭買いし店内で丁寧に捌くことで{"\n"}あらゆる部位を楽しめるほか、手頃な価格でご提供することができています。{"\n"}{"\n"}お肉そのものの品質はもちろん、おもてなしや店舗空間など、{"\n"}お客様に最高の焼肉文化を体験していただくための努力は惜しみません。'}
         />
         <RightPicture_LeftText_UpperTitle
-          image='images/picture/horumon.jpeg' 
+          image='images/picture/horumon.jpg' 
           alt='loin' 
           title_image='images/text/horumon.png'
           alt_title='kuroge'

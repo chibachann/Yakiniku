@@ -87,6 +87,11 @@
     padding: 10px;
   }
 
+  .leftContent {
+    justify-content: center;
+    align-items: center;
+  }
+
   .title {
     margin-bottom: 2rem;
     display: flex;

@@ -11,14 +11,10 @@
 
   .leftContent {
     width: 50%;
-    height: 70vh;
+    height: 50vh;
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     position: relative;
-    flex-direction: column;
     z-index: 1;
   }
   
@@ -40,7 +36,7 @@
     align-items: flex-start;
     padding-left: 80px;
     width: 50%;
-    height: 60vh;
+    height: 50vh;
     
   }
   
@@ -78,6 +74,11 @@
 
     .leftContent{
       height: 80%;
+    }
+
+    .rightContent {
+      align-items: center;
+      justify-content: center;
     }
 
     .Container {
