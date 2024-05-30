@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+/* モバイル用のスタイル */
+@media (max-width: 767px) {
+  .contents {
+    height: auto;
+    width: 100%;
+    background-color: #202020;
+    background-image: url("/images/picture/ami.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.5rem 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+
+  .textWrapper {
+    width: 90%;
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .description {
+    font-family: "Zen Old Mincho", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+}
+
+/* タブレット用のスタイル */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contents {
+    height: auto;
+    width: 100%;
+    background-color: #202020;
+    background-image: url("/images/picture/ami.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+  }
+
+  .textWrapper {
+    width: 80%;
+    padding-top: 1.5rem;
+    text-align: left;
+  }
+
+  .description {
+    font-family: "Zen Old Mincho", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+}
+
+/* PC用のスタイル */
+@media (min-width: 1025px) {
+  .contents {
+    height: auto;
+    width: 100%;
+    background-color: #202020;
+    background-image: url("/images/picture/ami.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .textWrapper {
+    width: 60%;
+    padding-top: 2rem;
+    text-align: left;
+  }
+
+  .description {
+    font-family: "Zen Old Mincho", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #fff;
+  }
+}

@@ -3,13 +3,9 @@ import * as styles from './top.module.css';
 
 const Top = () => {
   return (
-    <div className={styles.fadeInUp}>
-      <div className={styles.container}>
-          
-            <div className={styles.name}>
-                <img src="images/text/kuroge.png" alt="kurogewagyu" className={styles.kuroge} />
-            </div>
-          
+    <div className={styles.contents}>
+      <div className={styles.top}>
+        <img src="images/text/a5.png" alt="title" className={styles.title}/>
       </div>
     </div>
   );

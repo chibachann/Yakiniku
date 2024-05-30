@@ -26,7 +26,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.logoContainer}>
         <img
-          src="images/logo.png"
+          src="images/text/logo.png"
           alt="logo"
           className={styles.logo}
           onClick={handleLogoClick}

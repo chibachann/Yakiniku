@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+
+/* モバイル用のスタイル */
+@media (max-width: 767px) {
+  .contents {
+    height: auto;
+    width: 100%;
+    background-color: #202020;
+    background-image: url("/images/picture/blackTexture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.5rem 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+  }
+
+  .imageWrapper {
+    width: 95%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .textWrapper {
+    width: 90%;
+    padding-top: 1rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageTitle {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-family: "Zen Old Mincho", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+  }
+}
+
+
+/* タブレット用のスタイル */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contents {
+    height: auto;
+    width: 100%;
+    background-color: #202020;
+    background-image: url("/images/picture/blackTexture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .imageWrapper {
+    width: 95%;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .textWrapper {
+    width: 80%;
+    padding-top: 1.5rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageTitle {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-family: "Zen Old Mincho", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+  }
+}
+
+/* PC用のスタイル */
+@media (min-width: 1025px) {
+  .contents {
+    height: auto;
+    width: 100%;
+    background-color: #202020;
+    background-image: url("/images/picture/blackTexture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 0;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .imageWrapper {
+    width: 55%;
+    margin-right: -5%;
+  }
+
+  .reverse .imageWrapper {
+    margin-right: 0;
+    margin-left: -5%;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .textWrapper {
+    width: 40%;
+    padding-top: 2rem;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reverse .textWrapper {
+    margin-left: 0;
+    margin-right: 5%;
+  }
+
+  .imageTitle {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-family: "Zen Old Mincho", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #fff;
+    text-align: left;
+  }
+}
